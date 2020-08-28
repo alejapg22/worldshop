@@ -1,1 +1,1 @@
-enlace.php
+<?php  ?>
