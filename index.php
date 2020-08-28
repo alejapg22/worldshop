@@ -5,6 +5,7 @@
 </head>
 
 <body>
+	<?php ?>
 <p> alejandra</p>
 <body style="background-color: burlywood;">
 	  <center><img  src="ima.ropa.png" alt="img.galeria" width="30%" ></center>
