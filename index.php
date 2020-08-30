@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>worldshop</title>
+    <meta charset="UTF-8">
 </head>
 
 <body>
@@ -13,6 +14,12 @@
     <br>
 <p> el  fin de la página es facilitarle al usuario compras mucho más rápidas a través de una  plataforma web, para esto el cliente  debe crear una cuenta con contraseña esta debe contener todos sus datos personales , la cuenta les va a permitir ingresar a las ventas y seleccionar los productos que este desee , estos productos se van a  guardar en un carrito de compras , el carrito de compras  va a tener  una opción que  antes de enviar los productos para pago , el cliente pueda visualizarlos y confirmar el precio de la compra  , los pagos se pueden realizar en línea o contra entrega y en cualquier lugar del país.  en el momento de la compra se van a realizar varios filtros con los productos que estén en venta ( jeans , blusas , camisas , etc.) los cuales le van a brindar un poco de facilidad al usuario a la hora de  realizar la búsqueda de su compra.
 </p>
+
+<a href="https://www.bershka.com/">Pagina de ropa  </a>
+
+<a href="https://www.bershka.com/" target="_blank">Página de ropa  en nueva pestaña</a>
+
+
 
 <br> 
 
