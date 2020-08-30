@@ -6,10 +6,20 @@
 
 <body>
 	<?php ?>
-<p> alejandra</p>
+    <h1 style= color:blue><center>Tienda de ropa  " Worldshop " </center> </h1>
+
+<p> Worldshop es una tienda de ropa colombiana para mujer y hombre  que se encarga de realizar ventas al detal, brindándole al cliente una compra segura con precios muy económicos.
+<br>
+el  fin de la página es facilitarle al usuario compras mucho más rápidas a través de una  plataforma web, para esto el cliente  debe crear una cuenta con contraseña esta debe contener todos sus datos personales , la cuenta les va a permitir ingresar a las ventas y seleccionar los productos que este desee , estos productos se van a  guardar en un carrito de compras , el carrito de compras  va a tener  una opción que  antes de enviar los productos para pago , el cliente pueda visualizarlos y confirmar el precio de la compra  , los pagos se pueden realizar en línea o contra entrega y en cualquier lugar del país.  en el momento de la compra se van a realizar varios filtros con los productos que estén en venta ( jeans , blusas , camisas , etc.) los cuales le van a brindar un poco de facilidad al usuario a la hora de  realizar la búsqueda de su compra.
+</p>
+
+<br> 
+
 <body style="background-color: burlywood;">
 	<center><img  src="ima.ropa.png" alt="img.galeria" width="30%" ></center>
       <br>
+
+      <h2 style= color:blue>  Productos </h2>
         <table>
             <caption></caption>
             <tr>
