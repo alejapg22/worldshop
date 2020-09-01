@@ -26,7 +26,7 @@
 <br> 
 
 <body style="background-color: burlywood;">
-	<center><img  src="ima.ropa.png" alt="img.galeria" width="30%" ></center>
+	<center><img  src="img/imagenprincipal.jpg" width="30%" ></center>
       <br>
 
       <h2 style= color:blue>  Productos </h2>
