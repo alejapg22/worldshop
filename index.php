@@ -7,7 +7,7 @@
 
 <body>
 	<?php ?>
-    <h1 style= color:blue><center>Tienda de ropa  " Worldshop " </center> </h1>
+    <h1 style= color:blue><center>  " Worldshop " </center> </h1>
 
 <p> Worldshop es una tienda de ropa colombiana para mujer y hombre  que se encarga de realizar ventas al detal, brindándole al cliente una compra segura con precios muy económicos.</p> 
 
