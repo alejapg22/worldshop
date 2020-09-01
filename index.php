@@ -83,7 +83,7 @@
         <input type="text" name="email">
     </form>
     
-    <h1 aria-flowto="d" ><a  ari href="https://www.chevignon.com.co/?gclid=Cj0KCQjws536BRDTARIsANeUZ5-RlUG_u4r-PgzyqCHWDyHor3_vnv7ajc80194urzyCnYX8p8t6YpoaAh2vEALw_wcB" target="_blank"  >  Tienda chevignon </a></h1>
+    <h2 aria-flowto="d" ><a  ari href="https://www.chevignon.com.co/?gclid=Cj0KCQjws536BRDTARIsANeUZ5-RlUG_u4r-PgzyqCHWDyHor3_vnv7ajc80194urzyCnYX8p8t6YpoaAh2vEALw_wcB" target="_blank"  >  Tienda chevignon </a></h2>
     <br>
    <center> <iframe width="560" height="315" src="https://www.youtube.com/embed/7zgtuZXb1wE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
