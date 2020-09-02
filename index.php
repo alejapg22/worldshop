@@ -40,19 +40,19 @@
                 <th>Precio por unidad</th>
             </tr>
              <tr>
-                <td>1586</td>
+                <td>1585</td>
                 <td>150</td>
                 <td>Overol</td>
                 <td>$80.000</td>
             </tr>
              <tr>
-                <td>1587</td>
+                <td>1586</td>
                 <td>96</td>
                 <td>Blusa</td>
                 <td>$40.000</td>
             </tr>
             <tr>
-                <td>1588</td>
+                <td>1587</td>
                 <td>236</td>
                 <td>Pantalón</td>
                 <td>$50.000</td>
