@@ -30,7 +30,7 @@
 
  <br>
  
- <img class="logo" src="img/logo.png"><br>
+ <img class="logo" src="img/logo.jpeg"><br>
 
 
 
