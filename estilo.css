@@ -1,5 +1,5 @@
 body{
-    background-color:floralwhite;
+    background-color:white;
 }
 
 header{
@@ -35,7 +35,7 @@ nav{
 #menu{
     position: relative;
     float:right;  
-    margin-right: 100px;
+    margin-right: 130px;
     margin-top: -75px;   
 }
 
@@ -48,7 +48,7 @@ nav{
     background:transparent;
     list-style: none;
     padding: 20px 25px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #menu ul{
