@@ -35,7 +35,7 @@
 	<footer class="footer">
 		<section>
 			<div class="divFooter">
-				<img src="img/logo.png">
+				<img src="img/Logo.png">
 			</div>
 			<div class="divFooter">
 				<ul>
