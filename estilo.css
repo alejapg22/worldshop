@@ -10,7 +10,7 @@ header{
 nav{ 
     float: left;
     width: 100%;
-    height: 100px;
+    height: 170px;
 }
 
 
@@ -18,7 +18,8 @@ nav{
     position: relative;
     float: left;
     width: 15%;
-    height: 100;  
+    height: 100;
+    margin-top: 15px;  
 }
 
 .bus {
@@ -127,9 +128,52 @@ nav{
     margin-top: 40px;
 }
 .seccion1{
+    display: flex;
+    padding-bottom: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.cajaseccion1{
     float: left;
-    width: 20%
+    padding-right: 30px;
+    padding-left: 30;
 }
 .seccion2{
+    display: flex;
+    padding-bottom: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.cajaseccion2{
     float: left;
+    padding-right: 30px;
+    padding-left: 30;
+}
+.boton{
+    background-color: red;
+    text-align: center;
+}
+
+.divFooter{
+    float: left;
+    margin-right: 100px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+hr{
+    width: 95%;
+    border-top-color: red;
+}
+.footer{
+    background: #d4d4d4;
+   padding-bottom: 10px;
+    padding-top: 20px;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
