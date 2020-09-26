@@ -10,11 +10,12 @@
 	<?php?>
 	<header >
  		<nav><br>
-		 	<img class="logo" src="img/logo.jpeg"><br>
+		 	<a href=""><img class="logo" src="img/logo.jpeg"></a>
+		 	<br>
 			<img class="car" src="img/ca.png">
 		 	<img class="bus" src="img/bus.png">
 			<ul id = "menu">
-				<li href="index.html"><a>Inicio</a></li>
+				<li href="index.php"><a>Inicio</a></li>
 				<li href="nosotros.html"><a>Nosotros</a> </li>
 				<li href="cat-hombre.html"><a>Productos</a></li>
 				<li href="contactenos.html"><a>Contactenos</a></li>
@@ -22,8 +23,8 @@
 		</nav><br>
 	</header>
 	<section class="sec">
-	  	<article class="sec" id="d1"><a href="hombre.html"><img src="img/hombre.jpg"></a>
-	  	</article>
+	  	<a href="hombre.html"><article class="sec" id="d1"><img src="img/hombre.jpg">
+	  	</article></a>
 	   	<article class="sec" id="d2"><a href="#"><img src="img/mujer.jpg"></a>
 	   	</article>
 	    <div class="CallToAction">
