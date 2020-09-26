@@ -21,7 +21,6 @@
 			</ul>
 		</nav><br>
 	</header>
-	<hr>
 	<section class="sec">
 	  	<article class="sec" id="d1"><a href="cat.-hombre.html"><img src="img/hombre.jpg"></article></a>
 	   	<article class="sec" id="d2"> <a href="#"><img src="img/mujer.jpg"></article></a>
