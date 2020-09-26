@@ -14,15 +14,15 @@
 			<img class="car" src="img/ca.png">
 		 	<img class="bus" src="img/bus.png">
 			<ul id = "menu">
-				<li  href="index.html"><a>Inicio</a></li>
+				<li href="index.html"><a>Inicio</a></li>
 				<li href="nosotros.html"><a>Nosotros</a> </li>
-				<li  href="productos.html"><a>Productos</a></li>
-				<li  href="contactenos.html"><a>Contactenos</a></li>
+				<li href="productos.html"><a>Productos</a></li>
+				<li href="contactenos.html"><a>Contactenos</a></li>
 			</ul>
 		</nav><br>
 	</header>
 	<section class="sec">
-	  	<article class="sec" id="d1"><a href="cat-hombre.html"><img src="img/hombre.jpg"></a>
+	  	<article class="sec" id="d1"><a href="vista/cat-hombre.html"><img src="img/hombre.jpg"></a>
 	  	</article>
 	   	<article class="sec" id="d2"><a href="#"><img src="img/mujer.jpg"></a>
 	   	</article>
