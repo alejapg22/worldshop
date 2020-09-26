@@ -33,12 +33,12 @@ nav{
 #menu{
     position: relative;
     float:right;  
-    margin-right: 135px;
+    margin-right: 115px;
     margin-top: -75px;   
 }
 
 #menu li{ 
-    margin-left: 20px;
+    
     display: inline;
     margin:20px;
     width: 60%;
