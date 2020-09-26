@@ -60,11 +60,11 @@
 
 <br>
 
-<br><section  class="sec"  >
+<section  class="sec" >
    <article class="sec" id="d1"><img src="img/hombre.jpg " ></article>
     <article class="sec" id="d2"><img src="img/mujer.jpg">      </article>
     <div ><h1 class="p2">¿Quieres lucir con estilo? </h1>
-        <img id="w" src="img/wa.png">
+        <img id="w" src="img/w.png">
         <h2 id="p1">!Contactanos ahora¡</h2>
     </div
 </section>
