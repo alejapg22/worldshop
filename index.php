@@ -14,17 +14,17 @@
 			<img class="car" src="img/ca.png">
 		 	<img class="bus" src="img/bus.png">
 			<ul id = "menu">
-				<li  href="index.html"> <a> Inicio </a></li>
-				<li href="nosotros.html"> <a> Nosotros </a> </li>
-				<li  href="productos.html"> <a> Productos </a></li>
-				<li  href="contactenos.html"> <a> Contactenos </a></li>
+				<li  href="index.html"><a>Inicio</a></li>
+				<li href="nosotros.html"><a>Nosotros</a> </li>
+				<li  href="productos.html"><a>Productos</a></li>
+				<li  href="contactenos.html"><a>Contactenos</a></li>
 			</ul>
 		</nav><br>
 	</header>
 	<hr>
 	<section class="sec">
-	   <a href="cat.-hombre.html"><article class="sec" id="d1"><img src="img/hombre.jpg " ></article></a>
-	    <a href="#"><article class="sec" id="d2"><img src="img/mujer.jpg">   </article></a>
+	  	<article class="sec" id="d1"><a href="cat.-hombre.html"><img src="img/hombre.jpg"></article></a>
+	   	<article class="sec" id="d2"> <a href="#"><img src="img/mujer.jpg"></article></a>
 	    <div class="CallToAction">
 	    	<h1 class="p2">¿Quieres lucir con estilo? </h1>
 	        <img id="w" src="img/w.png">
