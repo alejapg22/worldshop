@@ -16,18 +16,18 @@
 			<ul id = "menu">
 				<li href="index.html"><a>Inicio</a></li>
 				<li href="nosotros.html"><a>Nosotros</a> </li>
-				<li href="productos.html"><a>Productos</a></li>
+				<li href="cat-hombre.html"><a>Productos</a></li>
 				<li href="contactenos.html"><a>Contactenos</a></li>
 			</ul>
 		</nav><br>
 	</header>
 	<section class="sec">
-	  	<article class="sec" id="d1"><a href="#"><img src="img/hombre.jpg"></a>
+	  	<article class="sec" id="d1"><a href="hombre.html"><img src="img/hombre.jpg"></a>
 	  	</article>
-	   	<article class="sec" id="d2"><a href="cat-hombre.html"><img src="img/mujer.jpg"></a>
+	   	<article class="sec" id="d2"><a href="#"><img src="img/mujer.jpg"></a>
 	   	</article>
 	    <div class="CallToAction">
-	    	<h1 class="p2">¿Quieres lucir con estilo? </h1>
+	    	<h1 class="p2">¿Quieres lucir con estilo?</h1>
 	        <img id="w" src="img/w.png">
 	        <h2 id="p1">!Contactanos ahora¡</h2>
 	    </div>
