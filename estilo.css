@@ -136,19 +136,19 @@ nav{
 
 .cajaseccion1{
     float: left;
-    padding-right: 30px;
-    padding-left: 30;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .seccion2{
     display: flex;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     padding-right: 50px;
     padding-left: 50px;
 }
 .cajaseccion2{
     float: left;
-    padding-right: 30px;
-    padding-left: 30;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .boton{
     background-color: red;
