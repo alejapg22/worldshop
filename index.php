@@ -9,11 +9,15 @@
 <body>
 	<?php?>
 	<header >
+		<div class="barra-top">
+			<p>info@worldshop.com</p>
+		</div>
  		<nav><br>
 		 	<a href=""><img class="logo" src="img/logo.jpeg"></a>
 		 	<br>
 			<img class="car" src="img/ca.png">
-		 	<img class="bus" src="img/bus.png">
+		 	<!--<img class="bus" src="img/bus.png">-->
+		 	<input class="buscador" type="text" name="buscador">
 			<ul id = "menu">
 				<li href="index.php"><a>Inicio</a></li>
 				<li href="nosotros.html"><a>Nosotros</a> </li>
