@@ -23,9 +23,9 @@
 		</nav><br>
 	</header>
 	<section class="sec">
-	  	<article class="sec" id="d1"><a href="hombre.html">git<img src="img/hombre.jpg"></a>
+	  	<article id="d1"><a href="hombre.html"><img src="img/hombre.jpg"></a>
 	  	</article>
-	   	<article class="sec" id="d2"><a href="#"><img src="img/mujer.jpg"></a>
+	   	<article id="d2"><a href="#"><img src="img/mujer.jpg"></a>
 	   	</article>
 	    <div class="CallToAction">
 	    	<h1 class="p2">¿Quieres lucir con estilo?</h1>
