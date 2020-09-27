@@ -23,7 +23,7 @@
 		</nav><br>
 	</header>
 	<section class="sec">
-	  	<a href="hombre.html"><article class="sec" id="d1"><img src="img/hombre.jpg">
+	  	<article class="sec" id="d1"><a href="hombre.html"><img src="img/hombre.jpg">
 	  	</article></a>
 	   	<article class="sec" id="d2"><a href="#"><img src="img/mujer.jpg"></a>
 	   	</article>
