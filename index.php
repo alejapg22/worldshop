@@ -19,10 +19,10 @@
 		 	<!--<img class="bus" src="img/bus.png">-->
 		 	<input class="buscador" type="text" name="buscador">
 			<ul id = "menu">
-				<li href="index.php"><a>Inicio</a></li>
-				<li href="nosotros.html"><a>Nosotros</a> </li>
-				<li href="cat-hombre.html"><a>Productos</a></li>
-				<li href="contactenos.html"><a>Contactenos</a></li>
+				<li><a href="index.php">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a> </li>
+				<li><a href="hombre.html">Productos</a></li>
+				<li><a href="contactenos.html">Contactenos</a></li>
 			</ul>
 		</nav><br>
 	</header>
