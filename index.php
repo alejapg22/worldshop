@@ -20,9 +20,9 @@
 		 	<input class="buscador" type="text" name="buscador">
 			<ul id = "menu">
 				<li><a href="index.php">Inicio</a></li>
-				<li><a href="nosotros.html">Nosotros</a> </li>
+				<li><a href="#">Nosotros</a> </li>
 				<li><a href="hombre.html">Productos</a></li>
-				<li><a href="contactenos.html">Contactenos</a></li>
+				<li><a href="#">Contactenos</a></li>
 			</ul>
 		</nav><br>
 	</header>

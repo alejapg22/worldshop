@@ -41,8 +41,7 @@ input.buscador {
     margin-right: 35px;
 }
 
-#menu li{ 
-    
+#menu li{
     display: inline;
     margin:20px;
     width: 60%;
@@ -59,6 +58,13 @@ input.buscador {
     position: relative;
     margin: 40px;
     margin-top: 10%;
+}
+ul#menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+ul#menu li a:active {
+    color: #0000ff;
 }
 
 .car{
@@ -130,6 +136,7 @@ input.buscador {
     padding-bottom: 60px;
     padding-right: 50px;
     padding-left: 50px;
+    margin-top: 40px;
 }
 
 .cajaseccion1{
@@ -176,12 +183,61 @@ hr{
    padding-bottom: 10px;
     padding-top: 20px;
 }
-p{
+p, h3, h1{
     text-align: center;
 }
-h3{
-    text-align: center;
+
+.product1{
+    background-image: url(img/camisa.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
 }
-h1,{
-    text-align: center;
+.product1:hover{
+    background: url(img/camisa_1.jpg) no-repeat;
+}
+.product2{
+    background-image: url(img/camiseta.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.product2:hover{
+    background: url(img/camiseta_1.jpg) no-repeat;
+}
+.product3{
+    background-image: url(img/jeans.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.product3:hover{
+    background: url(img/jeans_1.jpg) no-repeat;
+}
+.product4{
+    background-image: url(img/shorts.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.product4:hover{
+    background: url(img/shorts_1.jpg) no-repeat;
+}
+.product5{
+    background-image: url(img/joggers.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.product5:hover{
+    background: url(img/joggers_1.jpg) no-repeat;
+}
+.product6{
+    background-image: url(img/buso.jpg);
+    width: 190px;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.product6:hover{
+    background: url(img/buso_1.jpg) no-repeat;
 }
