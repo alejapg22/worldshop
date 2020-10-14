@@ -17,64 +17,27 @@ nav{
     float: left;
     width: 100%;
 }
-
+.nav-item{
+    font-size:170%;
+   
+    }
 
 .logo{
     position: relative;
     float: left;
-    width: 12%;
-    height: 100;  
+    width: 17%;
+    height: 20S%;  
 }
 
-.bus {
-    position: relative;
-    float: right;
-    width: 170px;
-    height: 150px;
-    margin-top:  -15px;
-    margin-right:30px; 
 
+.cuenta{
+    padding-left: 50%;
 }
-input.buscador {
-    float: right;
-    margin-top: 20px;
-    margin-right: 35px;
+.dropdown{
+    float:right;
 }
 
-#menu li{
-    display: inline;
-    margin:20px;
-    width: 60%;
-    min-height: 80px;
-    text-align: right;
-    background:transparent;
-    list-style: none;
-    padding: 10px 15px;
-    font-size: 30px;
-}
 
-#menu ul{
-    display: none;
-    position: relative;
-    margin: 40px;
-    margin-top: 10%;
-}
-ul#menu li a {
-    text-decoration: none;
-    color: #000000;
-}
-ul#menu li a:active {
-    color: #0000ff;
-}
-
-.car{
-    position: relative;
-    float: right;
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
-    margin-right: 70px ;
-}
 
 .sec{
     position: relative;
