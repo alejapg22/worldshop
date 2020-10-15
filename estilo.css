@@ -17,8 +17,12 @@ nav{
     float: left;
     width: 100%;
 }
+.nav-item{
+    font-size:170%;
+   
+    }
 
-
+<<<<<<< HEAD
 .car{
     position: relative;
     float: right;
@@ -27,6 +31,24 @@ nav{
     margin-top: 15px;
     margin-right: 70px ;
 }
+=======
+.logo{
+    position: relative;
+    float: left;
+    width: 17%;
+    height: 20S%;  
+}
+
+
+.cuenta{
+    padding-left: 50%;
+}
+.dropdown{
+    float:right;
+}
+
+
+>>>>>>> 626d5ef235bc8acda68d22b13df6d17fdbd4fd29
 
 .sec{
     position: relative;
