@@ -1,9 +1,7 @@
-
-
 .barra-top{
     background-color: red;
-    width: 100%;
-    height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 .barra-top p {
     color: white;
@@ -11,27 +9,25 @@
     text-align: left;
     padding: 6px;
     margin-left: 15px;
-}
-
-nav{ 
     float: left;
-    width: 100%;
+}
+.dropdown{
+    margin-left: 90%;
+}
+.btn-secondary {
+    padding-right: 13%;
+    padding-left: 13%;
 }
 .nav-item{
-    font-size:170%;
-   
+    font-size: 170%;
     }
-
-<<<<<<< HEAD
-.car{
-    position: relative;
-    float: right;
-    width: 30px;
-    height: 30px;
-    margin-top: 15px;
-    margin-right: 70px ;
+.navbar{
+    float: left;
 }
-=======
+.btn-outline-success{
+    color: black;
+    border-color: black;
+} 
 .logo{
     position: relative;
     float: left;
@@ -39,54 +35,47 @@ nav{
     height: 20S%; 
     border:0; 
 }
-
-
-.cuenta{
-    padding-left: 50%;
+.form-inline {
+    margin-left: 250px;
 }
-.dropdown{
-    float:right;
+.carrito{
+    float: left;
+    margin-left: 10px;
+    border-radius: revert;
 }
-
-
->>>>>>> 626d5ef235bc8acda68d22b13df6d17fdbd4fd29
-
 .sec{
     position: relative;
     width: 100%;
     height: 40%;
-    margin-top: 130px;
+    margin-top: 10px;
 }
-
 #d1 img{  
     float: left;
     width: 48%;
     height:450px;
     margin-right: 2%;
 }
-
 #d2 img{  
     float: center;
     width: 48%;
     height: 450px;
     margin-left: 2%;
 }
-
 #fon img{
     width: 100%;
     height: 160px;
 }
-
 .CallToAction{
     width: 100%;
     height: 120px;
     background-color: red;  
 }
-
+.contacto{
+    margin-left: 70%;
+}
 #w{
     display: none;
 }
-
 #p1{
     border-radius: 8px;
     padding: 10px;
@@ -97,7 +86,6 @@ nav{
     margin-top: -100px;
     color: white;
 }
-
 .p2{ 
     text-align: left;   
     font-size: 50px;
@@ -141,7 +129,6 @@ nav{
     border-radius: 6px;
     color: #ffffff;
 }
-
 .divFooter{
     float: left;
     margin-right: 100px;
@@ -150,7 +137,6 @@ nav{
     margin-top: 10px;
 }
 hr{
-    width: 95%;
     border-top-color: red;
 }
 .footer{
@@ -158,10 +144,13 @@ hr{
    padding-bottom: 10px;
     padding-top: 20px;
 }
-p, h3, h1{
+h3, h1{
     text-align: center;
 }
 
+p{
+    padding-left: 40%;
+}
 .product1{
     background-image: url(img/camisa.jpg);
     width: 190px;
