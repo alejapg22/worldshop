@@ -22,6 +22,16 @@ nav{
    
     }
 
+<<<<<<< HEAD
+.car{
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 70px ;
+}
+=======
 .logo{
     position: relative;
     float: left;
@@ -39,6 +49,7 @@ nav{
 }
 
 
+>>>>>>> 626d5ef235bc8acda68d22b13df6d17fdbd4fd29
 
 .sec{
     position: relative;

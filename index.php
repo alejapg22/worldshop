@@ -8,8 +8,12 @@
 	 	<link rel="icon" type="ico" href="img/favicon.png">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  	</head>
+<<<<<<< HEAD
+<body>	
+=======
 <body>
 	
+>>>>>>> 626d5ef235bc8acda68d22b13df6d17fdbd4fd29
 	<?php?>
 	<header >
 		<section class="barra-top ">
@@ -110,7 +114,17 @@
 
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<<<<<<< HEAD
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+</body>
+=======
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     </body>
+<<<<<<< HEAD
+=======
+>>>>>>> 626d5ef235bc8acda68d22b13df6d17fdbd4fd29
+
+>>>>>>> 62de180fb88767aeaf596dc9f6fa83ca2f37223e
      
     </html>
