@@ -13,28 +13,110 @@
 			<section class="barra-top ">
 				<p>info@worldshop.com</p>
 				<div class="dropdown">
-            		<a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            		<a class="btn btn-secondary dropdown-toggle"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               		Mi cuenta</a>
              		<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-             			<a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal">Iniciar Sesión</a>
-              			<a class="dropdown-item" href="#">Crear Cuenta</a>
+             			<a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal1">Iniciar Sesión</a>
+              			<a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal2">Crear Cuenta</a>
    					</div>
              	</div>
             </section>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!--primer encuenta-->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Hola</h5>
+        <h5 class="modal-title" id="exampleModal1Label">Inicar Sesión</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        actualizar
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Direccion Email </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Aceptar</button>
+</form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<!--segunda encuesta-->
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal2Label">Crear Cuenta</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Correo</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+   <div class="row">
+    <div class="col">
+      <label for="firtname">Nombre</label>
+      <input type="text" class="form-control" placeholder="Nombres">
+    </div>
+    <div class="col">
+      <label for="firtname">Apellido</label>
+      <input type="text" class="form-control" placeholder="Apellidos">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Telefono</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="+57... celular o fijo">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Direccion</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apart, studio ..etc">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">Sexo</label>
+      <select id="inputState" class="form-control">
+        <option selected>femenino</option>
+        <option>Masculino</option>
+         <option>Otro</option>
+      </select>
+    </div>
+  </div>
+  
+  </div>
+  <button type="submit" class="btn btn-primary">Sign in</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
