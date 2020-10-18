@@ -21,9 +21,9 @@
 .nav-item{
     font-size: 170%;
     }
-.navbar{
+/*.navbar{
     float: left;
-}
+}*/
 .btn-outline-success{
     color: black;
     border-color: black;
@@ -36,7 +36,7 @@
     border:0; 
 }
 .form-inline {
-    margin-left: 250px;
+    margin-left: 50px;
 }
 .carrito{
     float: left;
@@ -118,17 +118,30 @@ p{
     padding-left: 40%;
 }
 
-.seccion1{
+.seccion1, .seccion2{
+    justify-content: space-evenly;
     display: flex;
-     padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 0.1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.seccion2{
+/*código nuevo menú */
+.menu.bg-light {
+    width: 100%;
+    height: auto;
     display: flex;
-    padding-bottom: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
+    justify-content: center;
+}
+
+.card-img{
+    width: inherit;
+}
+
+.card-body{
     text-align: center;
+}
+
+p.card-text {
+    padding-left: 0%;
 }
