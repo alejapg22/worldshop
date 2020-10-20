@@ -27,7 +27,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModal1Label">Inicar Sesión</h5>
+              <h5 class="modal-title" id="exampleModal1Label">Iniciar Sesión</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -37,7 +37,7 @@
                 <div class="form-group">
                   <label for="exampleInputEmail1">Direccion Email </label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                 
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Contraseña</label>
@@ -121,7 +121,7 @@
       </div>
 			<!--menu-->
  			<div class="menu bg-light">
-        <img  class="logo" src="img/Logo.png">
+        <a href="prueba.php"><img  class="logo" src="img/Logo.png"></a>
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=" navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -129,17 +129,20 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul   class="navbar-nav">         
               <li class="nav-item active ">
-               <a style="color:black;"; class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
+               <a style="color:black;"; class="nav-link" href="prueba.php">Inicio <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a style="color:black"; class="nav-link" href="">Nosotros </a>
+                <a style="color:black"; class="nav-link" href="nosotros.html">Nosotros </a>
               </li>
-              <li class="nav-item">
-                <a  style="color:black"; class="nav-link" href="#">Productos</a>
-              </li> 
-              <li class="nav-item">
+               <li class="nav-item">
                 <a  style="color:black"; class="nav-link" href="contacto.html">Contactenos</a>
               </li>
+              <li class="nav-item">
+                <a  style="color:black"; class="nav-link" href="mujer.html">Mujer</a>
+              </li> 
+              <li class="nav-item">
+                <a  style="color:black"; class="nav-link" href="hombre.html">Hombre</a>
+              </li> 
               <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="Buscar" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0 navbar navbar-light"type="submit" ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor " xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +225,13 @@
     <section>
 	   	<div class="CallToAction">
 	    	<h1 class="p2">¿Quieres lucir con estilo?</h1>
-        <a><button style=" margin-right: 25%; margin-top: -60px; float: right;"  type="button" div="botoncontacto" class="contacto btn-danger btn-lg">¡Contactanos ahora!</button></a>
+       <div class="row">
+         <div class="container-fluid">
+          <div class="btn form-group ">
+            <a style="margin-top: 15%;"class="btn btn-danger btn-lg "href="contacto.html">¡Contactenos Ahora!</button></a>
+        </div>
+      </div>
+      </div>
       </div>	
 		</section><br>
 		<!--pie de pagina-->
@@ -231,30 +240,33 @@
 				<div class="divFooter">
 					<img src="img/Logo.png">
 				</div>
-					<div class="container-fluid">
-					<div class="row">
-				<div class="btn-group col-md-6  ">
-					<button class="btn btn-default btn-lg">Inicio</button>
-					<button class="btn btn-default btn-lg">Nosotros</button>
-					<button class="btn btn-default btn-lg">Productos</button>
-					<button class="btn btn-default btn-lg">Contactenos</button>
-				</div>
-				<div class="divFooter col-md-1">
-					<a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png"></a>
-					<a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"></a>
-					<a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png"></a>
-					<a href="https://twitter.com/?lang=es" target="_blank"><img src="img/twitter.png"></a>
-				</div>
-			</section><br><hr >
+        <div class="row">
+				<div class="container-fluid">
+        <div class="btn form-group ">
+        <a class="btn btn-default btn-lg"href="prueba.php">Inicio</button></a>
+        <a class="btn btn-default btn-lg"href="nosotros.html">Nosotros</button></a>
+        <a class="btn btn-default btn-lg"href="contacto.html">Contactenos</button></a>
+        <a class="btn btn-default btn-lg"href="mujer.html">Mujer</button></a>
+        <a class="btn btn-default btn-lg"href="hombre.html">Hombre</button></a>
+        </div>  
+        <div Style="margin-left:25%;"%class="divFooter col-md-11">
+          <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"></a>
+          <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png"></a>
+          <a href="https://twitter.com/?lang=es" target="_blank"><img src="img/twitter.png"></a>
+        </div>
+        </div>
+        </div>
+        </div>
+      </section><br><hr >
 			<p>&copy; Copyrigh - Derechos reservados</p>
 		</footer>
-			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    		</script>
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="
-            sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-
-    </body>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="
+    sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  </body>
 </html>
