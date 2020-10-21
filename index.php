@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
- 	<head>
-	  <title>worldshop</title>
-	 	<meta charset="UTF-8">
+  <head>
+    <title>worldshop</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="css/bootstrap.css">
-	 	<link rel= "stylesheet" type= "text/css" href= "estilo.css">
-	 	<link rel="icon" type="ico" href="img/favicon.png">
-	 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 	</head>
-	<body>
+    <link rel= "stylesheet" type= "text/css" href= "estilo.css">
+    <link rel="icon" type="ico" href="img/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
 
-		<?php ?>
+    <?php ?>
 
-		<header >
-			<section class="barra-top ">
-				<p>info@worldshop.com</p>
-				<div class="dropdown">
+    <header >
+      <section class="barra-top ">
+        <p>info@worldshop.com</p>
+        <div class="dropdown">
             <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Mi cuenta</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-             	<a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal1">Iniciar Sesión</a>
+              <a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal1">Iniciar Sesión</a>
               <a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal2">Crear Cuenta</a>
-   					</div>
+            </div>
         </div>
       </section>
       <!--primer encuenta-->
@@ -121,10 +121,13 @@
           </div>
         </div>
       </div>
-			<!--menu-->
- 			<div class="menu bg-light">
-        <a href="prueba.php"><img  class="logo" src="img/Logo.png"></a>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <!--menu-->
+
+    
+      <div class="container-fluid">
+        
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a href="prueba.php"><img  class="logo" src="img/Logo.png"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=" navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -158,9 +161,9 @@
         </nav>
       </div>  
       <!--fin menu-->
- 		</header>
+    </header>
     <br>
-		<div class="row">
+    <div class="row">
       <div class="col">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <a href="hombre.html" >
@@ -168,7 +171,7 @@
             <div class="carousel-item active">
               <img src="img/hombre1.jpg" class="d-block w-100" >
             </div>
-  	        <div class="carousel-item">
+            <div class="carousel-item">
               <img  src="img/hombre2.jpg" class="d-block w-100" >
             </div>
             <div class="carousel-item">
@@ -177,20 +180,20 @@
             <div class="carousel-item">
               <img src="img/hombre4.jpg" class="d-block w-100">
             </div>
-  	        <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/hombre5.jpg" class="d-block w-100" >
             </div>
-  	        <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/hombre6.jpg" class="d-block w-100" >
             </div>
-  	        <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/hombre7.jpg" class="d-block w-100">
             </div>
             <div class="carousel-item">
               <img src="img/hombre8.jpg" class="d-block w-100" >
             </div>
           </div></a>
-        </div>	
+        </div>  
       </div>
       <div class="col">
         <div  id="carouselExamplelidesOnly" class="carousel slide" data-ride="carousel">
@@ -199,7 +202,7 @@
             <div class="carousel-item active">
               <img src="img/mujer1.jpg" class="d-block w-100">
             </div>
-	          <div class="carousel-item">
+            <div class="carousel-item">
               <img  src="img/mujer2.jpg" class="d-block w-100"  >
             </div>
             <div class="carousel-item">
@@ -208,44 +211,44 @@
             <div class="carousel-item">
               <img src="img/mujer4.jpg" class="d-block w-100" >
             </div>
-	          <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/mujer5.jpg" class="d-block w-100" >
             </div>
-	          <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/mujer6.jpg" class="d-block w-100">
             </div>
-	          <div class="carousel-item">
+            <div class="carousel-item">
               <img src="img/mujer7.jpg" class="d-block w-100" >
             </div>
             <div class="carousel-item">
               <img src="img/mujer8.jpg" class="d-block w-100" >
             </div>
           </div></a>
-        </div>	
+        </div>  
       </div>
     </div>
     <section>
-	   	<div class="CallToAction">
+      <div class="CallToAction">
+        
         <div class="container-fluid">
-          <div class="row">
-	    	<h1 class="p2">¿Quieres lucir con estilo?</h1>
+        <div class="row">
+        <h1 class="p2">¿Quieres lucir con estilo?</h1>
        
-  
           <div class="btn form-group ">
             <a style="margin-top: 15%;"class="btn btn-danger btn-lg "href="contacto.html">¡Contactenos Ahora!</button></a>
         </div>
       </div>
       </div>
-      </div>	
-		</section><br>
-		<!--pie de pagina-->
-		<footer class="footer">
-			<section>
-				<div class="divFooter">
-					<img src="img/Logo.png">
-				</div>
+      </div>  
+    </section><br>
+    <!--pie de pagina-->
+    <footer class="footer">
+      <section>
+        <div class="divFooter">
+          <img src="img/Logo.png">
+        </div>
         <div class="row">
-				<div class="container-fluid">
+        <div class="container-fluid">
         <div class="btn form-group ">
         <a class="btn btn-default btn-lg"href="prueba.php">Inicio</button></a>
         <a class="btn btn-default btn-lg"href="nosotros.html">Nosotros</button></a>
@@ -263,9 +266,9 @@
         </div>
         </div>
       </section><br><hr >
-			<p>&copy; Copyrigh - Derechos reservados</p>
-		</footer>
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <p>&copy; Copyrigh - Derechos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
     </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="

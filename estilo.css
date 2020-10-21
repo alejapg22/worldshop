@@ -33,7 +33,7 @@
     margin-left: 50px;
 }
 .carrito{
-    
+
     float: left;
     margin-left: 10px;
     border-radius: revert;
@@ -111,12 +111,7 @@ p{
 }
 
 /*código nuevo menú */
-.menu.bg-light {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-}
+
 
 .card-img{
     width: inherit;
