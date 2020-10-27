@@ -1,6 +1,7 @@
 body{
     background-color: black;
 }
+
 .barra-top{
     background-color: red;
     padding-top: 4px;
@@ -25,24 +26,21 @@ body{
 .nav-item{
     font-size: 170%;
     }
-/*.navbar{
-    float: left;
-}*/
+
+
 .btn-outline-success{
     color: black;
     border-color: black;
 } 
  
 .form-inline {
-    margin-left: 50px;
+    margin-left: 110px;
 }
 .carrito{
-
     float: left;
     margin-left: 10px;
     border-radius: revert;
 }
-
 
 .CallToAction{
     width: 100%;
@@ -50,9 +48,10 @@ body{
     background-color: red;  
     margin-top: 10px;
 }
+
 .CallToAction h1{
-      font-weight: bold;
-      padding: 6px;
+    font-weight: bold;
+    padding: 6px;
     margin-right:210px;
     margin-top:20px;
     float: left;
@@ -93,11 +92,7 @@ body{
 hr{
     border-top-color: red;
 }
-.footer{
-    background: #d4d4d4;
-   padding-bottom: 10px;
-    padding-top: 20px;
-}
+
 h3, h1, h5{
     text-align: center;
 }
@@ -115,8 +110,6 @@ p{
 }
 
 /*código nuevo menú */
-
-
 .card-img{
     width: inherit;
 }
@@ -166,5 +159,13 @@ h2{
 
 .nosotros1{
     padding-right: 3%;
+}
+
+.container-fluid{
+    padding-right: 3%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    width: inherit;
 }
 
