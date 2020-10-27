@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: black !important;
 }
 
 .barra-top{
@@ -90,7 +90,7 @@ body{
     
 }
 hr{
-    border-top-color: red;
+    background-color: red;
 }
 
 h3, h1, h5{
@@ -169,3 +169,6 @@ nav.navbar.navbar-expand-lg.navbar-light {
     width: inherit;
 }
 
+.navbar-nav{
+    padding-top: 4%
+}
