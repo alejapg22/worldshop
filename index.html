@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html>
- 	<head>
-	  <title>Worldshop</title>
-	 	<meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-	 	<link rel= "stylesheet" type= "text/css" href= "estilo.css">
-	 	<link rel="icon" type="ico" href="img/favicon.png">
-	 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
- 	</head>
-	<body>
-<section class="home">
-		<?php ?>
+	<head>
+		<title>Catálogo Hombre</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel= "stylesheet" type= "text/css" href= "estilo.css">
+		<link rel="icon" type="ico" href="img/favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>	
+<body>
+	
+	<header >
+      <section class="barra-top ">
+        <p>info@worldshop.com</p>
+        <ul class="menu-ctn"  >
+            <li id="menu" style="color:white"; >
+            
+            Mi cuenta
+            
+            <ul id="dropdown">
+           
+              <li  data-toggle="modal" data-target="#exampleModal1">Iniciar Sesión</li>
 
-		<header >
-			<section class="barra-top ">
-        <p>info@worldshop.com   </p>
-        <div  class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Mi cuenta</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal1">Iniciar Sesión</a>
-              <a class="dropdown-item"  data-toggle="modal" data-target="#exampleModal2">Crear Cuenta</a>
-            </div>
-        </div>
+              <li data-toggle="modal" data-target="#exampleModal2">Crear Cuenta</li>
+              
+            </ul>
+           </li>
+        </ul>
       </section>
       <!--primer encuenta-->
       <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModal1Label" aria-hidden="true">
@@ -35,7 +39,7 @@
               </button>
             </div>
             <div class="modal-body">
-              <form>
+              <form name="formulario" method="get">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Direccion Email </label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -49,11 +53,8 @@
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Recordar contraseña</label>
                 </div>
-                <button type="submit" class="btn btn-primary">Aceptar</button>
+                <button style="margin-left: 85%"; id="alerta" type="submit" class="btn btn-danger">Aceptar</button>
               </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>  
             </div>
           </div>
         </div>
@@ -115,20 +116,19 @@
               </form>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-              <button type="button" class="btn btn-primary">Enviar</button>
+              <button type="button" class="btn btn-danger">Enviar</button>
             </div>
           </div>
         </div>
       </div>
-			<!--menu-->
-      <div  class="container-fluid">
+      <!--menu-->
+      <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light ">
-          <a href="index.php"><img  class="logo" src="img/Logo.png" ></a>
-          <button style="background-color: aliceblue;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=" navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span  class="navbar-toggler-icon"></span>
+          <a href="index.php"><img  class="logo" src="img/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls=" navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="color:white" class="navbar-toggler-icon"></span>
           </button>
-          <div  class="collapse navbar-collapse" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
             <ul   class="navbar-nav">         
               <li class="nav-item active ">
                <a style="color:white;"; class="nav-link" href="index.php">Inicio <span class="sr-only">(current)</span></a>
@@ -146,7 +146,7 @@
                 <a  style="color:white"; class="nav-link" href="hombre.html">Hombre</a>
               </li> 
               <form class="form-inline my-2 my-lg-0">
-                <input style="margin-right: 5px;" class="form-control mr-sm-2" type="Buscar" placeholder="Search" aria-label="Search ">
+                <input class="form-control mr-sm-2" type="Buscar" placeholder="Search" aria-label="Search ">
                 <button class="btn  my-2 my-sm-0 navbar navbar-light btn-danger "type="submit" ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor " xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
                 <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg></button>
@@ -156,18 +156,17 @@
             </ul>
           </div>
         </nav>
-      </div>  
-      <!--fin menu-->
+      </div>   
  		</header>
     <hr>
     <div class="row mx-1" >
       <div class="col" >
        
-       <a href="hombre.html"> <img  src="img/hombre1.jpg"  width="80%"  id="imagenhombre1"></a>
+       <a href="hombre.html"> <img  src="img/hombre1.jpg"  width="100%"  id="imagenhombre1"></a>
       </div>
       <div class="col" >
        
-       <a   href="mujer.html" > <img   src="img/mujer1.jpg" width="80%"   id="imagenmujer1"></a>
+       <a   href="mujer.html" > <img   src="img/mujer1.jpg" width="100%"   id="imagenmujer1"></a>
       </div>
     </div>
 
@@ -177,10 +176,10 @@
         
         <div class="container-fluid ">
         <div class="row">
-        <h1 class="p2 col-md-5">¿Quieres lucir con estilo?</h1>
+        <h1 class="p2 col-md-5 d-none d-md-block" >¿Quieres lucir con estilo?</h1>
        
-          <div class="btn form-group ">
-            <a style="margin-left: 150px; margin-top: 25px;"class="btn btn-danger btn-lg "href="contacto.html">¡Contáctenos Ahora!</button></a>
+          <div class="btn form-group  ">
+            <a style="margin-left: 105px; margin-top: 25px;" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()"  id="mover" class="btn btn-danger btn-lg "href="contacto.html">¡Contáctenos Ahora!</a>
         </div>
       </div>
       </div>
@@ -190,19 +189,19 @@
 		<footer  style="background-color:black;"class="footer" >
       <section>
         <div class="divFooter"Style="margin-left:10%;">
-          <img src="img/Logo.png">
+          <img src="img/Logo.png"id="logo2">
         </div>
         <div class="row" >
-        <div  class="container-fluid ">
-        <div  class="btn form-group btn-lg ">
-        <a style="color:white; padding-right: 5px; " class="btn btn-default btn-lg"href="index.php">Inicio</button></a>
+      
+        <div  class="btn  btn-lg ">
+        <a style="color:white; " class="btn btn-default btn-lg"href="index.php">Inicio</button></a>
         <a style="color:white; " class="btn btn-default btn-lg"href="nosotros.html">Nosotros</button></a>
         <a style="color:white; " class="btn btn-default btn-lg"href="contacto.html">Contáctenos</button></a>
         <a style="color:white; " class="btn btn-default btn-lg"href="mujer.html">Mujer</button></a>
         <a style="color:white; " class="btn btn-default btn-lg"href="hombre.html">Hombre</button></a>
         </div>  
-        <div Style="margin-left:25%;"%class="divFooter col-md-11">
-          <a Style="font-family:bold;font-size:20px;color:white;">Siguenos En:</a>
+        <div Style="margin-left:25%;"%class="divFooter2 col-md-11">
+          <a Style="font-family:bold;font-size:20px;color:white;">Siguenos En:</a><br>
           <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png"></a>
           <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.png"></a>
           <a href="https://web.whatsapp.com/" target="_blank"><img src="img/whatsapp.png"></a>

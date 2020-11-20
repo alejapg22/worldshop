@@ -8,8 +8,12 @@ body{
 
 .barra-top{
     background-color: red;
+    align-items: center;
+
     
 }
+
+
 .barra-top p {
     color: white;
     font-weight: bold;
@@ -20,8 +24,9 @@ body{
 }
 
 .logo{
-    width: 190px;
+    width: 180px;
     float: left;
+    
   
 }
 nav.navbar.navbar-expand-lg.navbar-light {
@@ -31,42 +36,107 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .navbar-nav{
     float: right;
     margin-top: 20px;
-    margin-left: 400px;
-    font-size: 20px;
+    margin-left: 80px;
+    font-size: 19px;
+    align-items: center;
+    padding-left:30px;
+    
 }
 
-.dropdown{
-    margin-left: 90%;
+.navbar-nav li:hover{
+    background-color: grey;
 }
-.btn-secondary {
-    padding-right: 13%;
-    padding-left: 13%;
+
+
+
+.form-inline {
+    float: right;
+    margin-left: 90px;
+}
+.carrito{
+    float: right;
+    margin-left: 25px;
+    
 }
 
 .nav-item{
-    font-size: 170%;
-    }
+    font-size:22px;
+    font-family:cursive;
+    margin-top: 5px;
+    margin-left: 5px; 
+    padding:auto;
+  
+
+        }
+
+#menu{
+margin-left: 1060px;
+
+}
+.menu-ctn > li {
+
+
+display: inline-block;
+background-color: gray;
+display: inline-block;
+padding: 10px 15px;
+position: relative;
+transition: all 0.8s ease;
+
+
+  
+}
+
+ul{
+    list-style: none;
+}
+
+.menu-ctn li:hover{
+    cursor: pointer;
+    background-color: lightcoral;
+
+    
+
+}
+
+#dropdown {
+    display:none;
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    z-index: 1;
+    text-align: center;
+    left:0;
+    top:100%;
+
+}
+
+#dropdown li {
+    padding: 10px 10px;
+
+
+}
+
+#dropdown.active {
+    display: block;
+}
+
+
+
+
 
 
 .btn-outline-success{
     color: black;
     border-color: black;
+
 } 
  
-.form-inline {
-    float: right;
-    margin-left: 300px;
-}
-.carrito{
-    float: right;
-    margin-left: 10px;
-    border-radius: revert;
-}
+
 
 .CallToAction{
     width: 100%;
     height: 120px;
-    
     background-color: red;  
     
 }
@@ -98,19 +168,24 @@ nav.navbar.navbar-expand-lg.navbar-light {
 }
 .p2{ 
     text-align: left;   
-    font-size: 50px;
+    font-size: 45px;
     color: #ffff;
     margin-left: 100px;
     font-family: bold;
     padding-top: 25px;
 }
+ 
+
 
 .divFooter{
     float: left;
-    margin-right: 100px;
+    
     margin-left: 100px;
+    padding: 20px;
+    align-items: center;
     
 }
+
 hr{
     background-color: red;
 }
@@ -130,7 +205,11 @@ p{
     padding-top: 1%;
     padding-bottom: 1%;
 }
-
+#logo2{
+    width: 80%;
+    height: 80%;
+    margin-left:-0%;
+}
 /*código nuevo menú */
 .card-img{
     width: inherit;
@@ -183,7 +262,5 @@ h2{
     padding-right: 3%;
 }
 
-.container-fluid{
-    padding-right: 3%;
-}
+
 

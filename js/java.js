@@ -25,5 +25,26 @@ function mouseOver1() {
 }
 
 
- 
+  //botoncuenta
+ document.getElementById("menu").addEventListener("click", openMenu);
+
+ function openMenu() {
+
+ 	document.getElementById("dropdown").classList.toggle("active");
+
+ }
+
+//botoncontacto
+
+
+
+function mouseEnter() {
+  document.getElementById("mover").style.color = "black";
+}
+
+function mouseLeave() {
+  document.getElementById("mover").style.color = "white";
+}
+
+
  
