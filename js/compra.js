@@ -5,5 +5,5 @@ cargarEventos();
 
 function cargarEventos() {
 	
-    document.addEventListener('DOMContentLoaded', compra.leerLocalStorageCompra());
+    document.addEventListener("DOMContentLoaded", compra.leerLocalStorageCompra());
 }

@@ -18,26 +18,10 @@ comprarProducto(e){
             precio: producto.querySelector('.precio span').textContent,
             id: producto.querySelector('a').getAttribute('data-id'),
             cantidad: 1
-        }
-        let productosLS;
-        productosLS =this.obtenerProductosLocalStorage();
-        productosLS.forEach(function(productosLS){
-          if(productosLS.id === infProducto.id){
-            productosLS = productosLS.id;
-          }
-        });
-        if(productosLS === infoProducto.id){
-            Swal.fire({
-                type: 'info',
-                title: 'Oops...',
-                text: 'El producto ya está agregado',
-                showConfirmButton: false,
-                timer: 1000
-            })
-        }
-        else {
+        }  
+        
             this.insertarCarrito(infoProducto);
-        }
+        
 }
  insertarCarrito(producto){
         const row = document.createElement('tr');
@@ -149,7 +133,7 @@ leerLocalStorageCompra(){
                 <a href="#"class="borrar-producto fas fa-times-circle"  data-id="${producto.id}"></a>
             </td>
           `;
-          listaCompra.appendChild(row);
+        listaCompra.appendChild(row);
 
     });
 }
