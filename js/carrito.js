@@ -130,11 +130,11 @@ leerLocalStorageCompra(){
             </td>
             <td>${producto.precio * producto.cantidad}</td>
             <td>
-                <a href="#"class="borrar-producto fas fa-times-circle"  data-id="${producto.id}"></a>
+                <a href="#"class="borrar-producto fas fa-times-circle"  style="font-size:30px"  data-id="${producto.id}"></a>
             </td>
           `;
         listaCompra.appendChild(row);
-
+ 
     });
 }
 vaciarLocalStorage(){
@@ -143,7 +143,7 @@ vaciarLocalStorage(){
   procesarPedido(e){
         e.preventDefault();
 
-        if(this.obtenerProductosLocalStorage().length === 0){
+        if(this.obtenerProductosLocalStorage().length = 0){
             Swal.fire({
                 type: 'error',
                 title: 'Oops...',
@@ -154,8 +154,26 @@ vaciarLocalStorage(){
         }
         else {
             location.href = "compra.html";
-    
+        }
     }
 
+
+calcularTotal(){
+    let productoLS;
+    let total = 0, subtotal = 0, igv = 0;
+    productoLS = this.obtenerProductosLocalStorage();
+    for(let i = 0; i < productoLS.legth; i++){
+        let element = Number(productoLS[i].precio * productoLS[i].cantidad);
+        total = total + element;
+      }
+    igv = parseFloat(total * 0.18). toFixed();
+    subtotal = parseFloat(total-igv).toFixed();
+
+    document.getElementById('subtotal').innerHTML = "$ " + subtotal;
+    document.getElementById('igv').innerHTML = "$ " + igv;
+    document.getElementById('total').innerHTML = "$ " + total.toFixed();
     }
+
+
+
 }
