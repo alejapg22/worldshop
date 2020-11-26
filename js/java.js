@@ -1,9 +1,7 @@
-document.getElementById("imagenhombre1").onmouseover = function() {mouseOver()};
+document.getElementById("imagenhombre1 function() {mouseOver()};
 document.getElementById("imagenhombre1").onmouseout = function() {mouseOut()};
-var imagen = document.getElementsByTagName("img");
-
-function mouseOver() {
-  document.getElementById("imagenhombre1").attributes[0].value = "img/hombre2.jpg";
+var imagen = document.getElementsByTagName("img");").onmouseover =function mouseOver() {
+ document.getElementById("imagenhombre1").attributes[0].value = "img/hombre2.jpg";
 }
 
   //mouse afuera
@@ -25,14 +23,7 @@ function mouseOver1() {
 }
 
 
-  //botoncuenta
- document.getElementById("menu").addEventListener("click", openMenu);
 
- function openMenu() {
-
- 	document.getElementById("dropdown").classList.toggle("active");
-
- }
 
 //botoncontacto
 
@@ -47,7 +38,7 @@ function mouseLeave() {
 }
 
 
- //carrito
+
  
 
 
