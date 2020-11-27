@@ -1,8 +1,13 @@
-document.getElementById("imagenhombre1 function() {mouseOver()};
+document.getElementById("imagenhombre1").onmouseover = function() {mouseOver()};
 document.getElementById("imagenhombre1").onmouseout = function() {mouseOut()};
-var imagen = document.getElementsByTagName("img");").onmouseover =function mouseOver() {
+var imagen = document.getElementsByTagName("img");
+
+
+// mouse dentro 
+function mouseOver(){
  document.getElementById("imagenhombre1").attributes[0].value = "img/hombre2.jpg";
 }
+
 
   //mouse afuera
   function mouseOut() {

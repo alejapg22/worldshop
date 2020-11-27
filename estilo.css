@@ -206,7 +206,7 @@ p{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.seccion2{
+.seccion1, .seccion2{
     justify-content: space-evenly;
     display: flex;
     padding-left: 0.1%;

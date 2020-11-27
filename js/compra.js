@@ -1,4 +1,4 @@
-const compra = new Carrito();
+const compra =  new Carrito();
 const listaCompra = document.querySelector('#lista-compra tbody');
 const carrito = document.getElementById('carrito');
 
