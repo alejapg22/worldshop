@@ -141,37 +141,38 @@
                 <a  style="color:white"; class="nav-link" href="hombre.html">Hombre</a>
               </li> 
               <form class="form-inline my-2 my-lg-0">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item dropdown">
+                          <img src="img/carrito.png" class="nav-link dropdown-toggle img-fluid" height="80px"
+                              width="80px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+                              aria-expanded="false"></img>
+                          <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
+                              <table id="lista-carrito" class="table">
+                                  <thead>
+                                      <tr>
+                                          <th>Producto</th>
+                                          <th>Nombre</th>
+                                          <th>Precio</th>
+                                          <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody></tbody>
+                              </table>
+
+                              <a href="#" id="vaciar-carrito"  style="background-color: gray; color:aliceblue" class="btn btn-default btn-block">Vaciar Carrito</a>
+                              <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
+                                  Compra</a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
                 <input class="form-control mr-sm-2" type="Buscar" placeholder="Search" aria-label="Search ">
                 <button class="btn  my-2 my-sm-0 navbar navbar-light btn-danger "type="submit" ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor " xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
                 <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg></button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item dropdown">
-                                <img src="img/carrito.png" class="nav-link dropdown-toggle img-fluid" height="80px"
-                                    width="80px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"></img>
-                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
-                                    <table id="lista-carrito" class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Producto</th>
-                                                <th>Nombre</th>
-                                                <th>Precio</th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-
-                                    <a href="#" id="vaciar-carrito" class="btn btn-secondary btn-block">Vaciar Carrito</a>
-                                    <a href="compra.html" id="procesar-pedido" class="btn btn-danger btn-block">Realizar 
-                                        Compra</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-              
+                
+              </form>
             </ul>
           </div>
         </nav>
@@ -189,7 +190,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">55000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="1">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="1">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -197,10 +198,10 @@
             <img src="img/buso2.jpg" class="card-img-top">
             <ul class="list-unstyled mt-3 mb-4">
               <h4 class="card-title">BUSO GRIS CON CORTES SINTÉTICO</h4>
-              <h1 class="card-title pricing-card-title precio">$ <span class="">82000</span></h1>
+              <h1 class="card-title pricing-card-title precio">$ <span class="">60000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="2">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="2">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -211,7 +212,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">74000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="3">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="3">Añadir al carrito</a>
           </div>
         </div>
       </div>           
@@ -227,7 +228,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">55000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="4">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="4">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -238,7 +239,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">50000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="5">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="5">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -249,14 +250,14 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">53000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="6">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="6">Añadir al carrito</a>
           </div>
         </div>
       </div>           
     </div> 
     <!--Tercer container-->
     <div id="lista-productos" class="container" >
-      <div class="card-deck mb-3 text-center">
+      <div class="card-deck mb-3 text-center ">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
             <img src="img/buso7.jpg" class="card-img-top">
@@ -265,7 +266,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">51000</span></h1>
               <li>TALLA: S M L</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="7">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="7">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -276,7 +277,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">55000</span></h1>
               <li>TALLA: S</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="8">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="8">Añadir al carrito</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
@@ -287,7 +288,7 @@
               <h1 class="card-title pricing-card-title precio">$ <span class="">63000</span></h1>
               <li>TALLA: S</li>
             </ul>
-            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="9">Comprar</a>
+            <a href="#" class="btn btn-block btn-danger agregar-carrito" data-id="9">Añadir al carrito</a>
           </div>
         </div>
       </div>           

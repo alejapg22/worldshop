@@ -36,10 +36,10 @@ nav.navbar.navbar-expand-lg.navbar-light {
 .navbar-nav{
     float: right;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 40px;
     font-size: 19px;
     align-items: center;
-    padding-left:30px;
+    padding-left:15px;
     
 }
 
@@ -51,14 +51,16 @@ nav.navbar.navbar-expand-lg.navbar-light {
 
 .form-inline {
     float: right;
-    margin-left: 50px;
+    margin-left: 10px;
    
 }
 
 #dropdown01 {
-    margin-left: 200px;
+   
+    margin-top: -20px;
     cursor: pointer;
-    margin-top: -60px
+    
+    
 }
 
 

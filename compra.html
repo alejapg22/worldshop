@@ -145,33 +145,8 @@
                 <button class="btn  my-2 my-sm-0 navbar navbar-light btn-danger "type="submit" ><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor " xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
                 <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/></svg></button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item dropdown">
-                                <img src="img/carrito.png" class="nav-link dropdown-toggle img-fluid" height="80px"
-                                    width="80px" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-                                    aria-expanded="false"></img>
-                                <div id="carrito" class="dropdown-menu" aria-labelledby="navbarCollapse">
-                                    <table id="lista-carrito" class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Producto</th>
-                                                <th>Nombre</th>
-                                                <th>Precio</th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-
-                                    <a href="#" id="vaciar-carrito" class="btn btn-secondary btn-block">Vaciar Carrito</a>
-                                    <a href="#" id="procesar-pedido" class="btn btn-danger btn-block">Procesar
-                                        Compra</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-              
+                
+              </form>
             </ul>
           </div>
         </nav>
@@ -224,7 +199,7 @@
                                     <!-- <th scope="col"></th> -->
                                 </tr>
                                 <tr>
-                                    <th colspan="4" scope="col" class="text-right">IGV :</th>
+                                    <th colspan="4" scope="col" class="text-right">IVA :</th>
                                     <th scope="col">
                                         <p id="igv"></p>
                                     </th>
@@ -233,7 +208,7 @@
                                 <tr>
                                     <th colspan="4" scope="col" class="text-right">TOTAL :</th>
                                     <th scope="col">
-                                      <p id="total"></p>
+                                      <input id="total" name="monto" style=" float: right;" class="font-weight-bold border-0" readonly ></input> 
                          
                                     </th>
                                     <!-- <th scope="col"></th> -->
@@ -244,10 +219,10 @@
 
                         <div class="row justify-content-between">
                             <div class="col-md-4 mb-2">
-                                <a href="index.html" class="btn  btn-info  btn-block ">Seguir comprando</a>
+                                <a href="index.html" class="btn  btn-info  btn-block " style="background-color: gray;">Seguir comprando</a>
                             </div>
                             <div class="col-xs-12 col-md-4">
-                                <button href="#" class="btn btn-success btn-danger btn-block" id="procesar-compra">Realizar compra</button>
+                                <button href="#" class="btn  btn-block"  style="background-color: red; color: aliceblue;" id="procesar-compra">Realizar compra</button>
                             </div>
                         </div>
 
